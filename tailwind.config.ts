@@ -20,12 +20,19 @@ export default {
     extend: {
       colors: {
         primary: {
-          DEFAULT: "#1D4B4A",
-          light: "#2A6B6A",
+          DEFAULT: "#9b87f5",
+          light: "#E5DEFF",
+          dark: "#6E59A5",
         },
         accent: {
-          DEFAULT: "#C6A86B",
-          light: "#D4BC89",
+          DEFAULT: "#FEF7CD",
+          light: "#FFFDF2",
+          dark: "#D4C178",
+        },
+        mauve: {
+          DEFAULT: "#D946EF",
+          light: "#F0D1F7",
+          dark: "#7E69AB",
         },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
