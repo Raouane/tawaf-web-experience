@@ -12,7 +12,7 @@ export const FloatingReservationButton = () => {
   return (
     <Button
       onClick={scrollToReservation}
-      className="fixed bottom-24 right-4 z-50 rounded-full shadow-lg bg-accent hover:bg-accent-light transition-colors"
+      className="fixed bottom-24 right-4 z-50 rounded-full shadow-lg bg-accent hover:bg-accent-light text-primary-dark dark:text-primary-dark transition-colors"
     >
       <CalendarPlus className="mr-2" />
       Réserver

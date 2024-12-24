@@ -23,7 +23,7 @@ export const Hero = () => {
         </p>
         <a 
           href="#packages"
-          className="inline-block bg-accent hover:bg-accent-light text-white font-semibold px-8 py-3 rounded-lg transition-colors"
+          className="inline-block bg-accent hover:bg-accent-light text-primary-dark dark:text-primary-dark font-semibold px-8 py-3 rounded-lg transition-colors"
         >
           Découvrir nos offres
         </a>
