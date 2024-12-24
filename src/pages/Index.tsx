@@ -2,6 +2,9 @@ import { Navbar } from "@/components/Navbar";
 import { Hero } from "@/components/Hero";
 import { PackageCard } from "@/components/PackageCard";
 import { FloatingButtons } from "@/components/FloatingButtons";
+import { Footer } from "@/components/Footer";
+import { ReservationForm } from "@/components/ReservationForm";
+import { FloatingReservationButton } from "@/components/FloatingReservationButton";
 
 const packages = [
   {
@@ -38,7 +41,6 @@ const Index = () => {
       <Navbar />
       <Hero />
       
-      {/* Packages Section */}
       <section id="packages" className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12">Nos Offres</h2>
@@ -50,7 +52,16 @@ const Index = () => {
         </div>
       </section>
 
+      <section id="reservation" className="py-20">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-12">Réservation</h2>
+          <ReservationForm />
+        </div>
+      </section>
+
       <FloatingButtons />
+      <FloatingReservationButton />
+      <Footer />
     </div>
   );
 };
